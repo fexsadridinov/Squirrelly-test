@@ -8,7 +8,7 @@ import {
 } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: '/graphql',
+  uri: 'https://squirrelly-test.onrender.com/graphql',
   cache: new InMemoryCache(),
 });
 
